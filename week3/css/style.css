@@ -1,5 +1,5 @@
 html {
-	background: url("Guilin1.jpg") no-repeat center center fixed;
+	background: url(images/Guilin1.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -7,5 +7,7 @@ html {
 }
 
 h1 {text-align:center;}
+h2 {text-align:center;}
 p {text-align:center;}
 ul {text-align:center;}
+li {text-align:center;}
