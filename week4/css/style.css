@@ -7,7 +7,7 @@ html {
 }
 
 h1 {
-	font-family: 'Oxygen', sans-serif;
+	font-family: "Helvetica", Georgia, Serif;
 	text-align:center;
 }
 
@@ -42,10 +42,10 @@ img {
 }
 
 div {
-	width: 100%;
-	padding: 100px;
-	height:10vh;
-	margin: 0 auto;
+	width:100%;
+	padding:20px;
+	height:100vh;
+	margin:0 auto;
 	background-color: rgba(255, 255 , 255, 0.5);
 
 }
