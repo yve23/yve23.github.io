@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Oxygen);
+
 
 html {
 	background: url("../images/Guilin1.png") no-repeat center center fixed;
@@ -9,7 +9,7 @@ html {
 }
 
 h1 {
-	font-family: "Oxygen", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	text-align:center;
 }
 
