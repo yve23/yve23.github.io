@@ -1,3 +1,5 @@
+
+
 html {
 	background: url("../images/Guilin1.png") no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -7,12 +9,12 @@ html {
 }
 
 h1 {
-	font-family: "Helvetica", Georgia, Serif;
+	font-family: 'Indie Flower', cursive;
 	text-align:center;
 }
 
 h2 {
-	font-family: "Helvetica", Georgia, Serif;
+	font-family: 'Indie Flower', cursive;
 	text-align:center;
 }
 
@@ -42,10 +44,10 @@ img {
 }
 
 div {
-	width:100%;
-	padding:20px;
+	width: 100%;
+	padding: 100px;
 	height:100vh;
-	margin:0 auto;
+	margin: auto 0px;
 	background-color: rgba(255, 255 , 255, 0.5);
 
 }
