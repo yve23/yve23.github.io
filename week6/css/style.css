@@ -30,7 +30,8 @@ h2 {
 	font-size: 20px;
 	padding-left: 15px;
 	padding-top: 10px;
-	margin: 0 auto;
+	padding-bottom: 10px;
+	
 }
 
 h3 {
@@ -39,15 +40,15 @@ h3 {
 	font-size: 20px;
 	padding-left: 15px;
 	padding-top: 20px;
+	padding-bottom: 10px;
 	margin: 0 auto;
 }
 
 p {
 	font-family: 'Arial', sans-serif;
 	text-align:left;
-	font-size: 15px;
+	font-size: 10px;
 	padding: 0 15px 0 15px;
-	margin: 0 auto;
 }
 
 ul {
@@ -71,6 +72,7 @@ img {
 a {
 	text-decoration: none;
 	color: orange;
+	display: block;
 }
 
 a:visited {
@@ -83,11 +85,11 @@ a:hover {
 div {
 	font-size: 1.2em;
 	width: 50%;
-	display: inline-block;
+	
 }
 
 body {
-	width: 900px;
+	
 }
 
 nav {
@@ -112,37 +114,37 @@ nav a {
 float: left;
 background-color: white;
 width: 320px;
-height: 340px;
+height: 350px;
 }
 #box2 {
 float: left;
 background-color: white;
 width: 320px;
-height: 340px;
+height: 350px;
 }
 #box3 {
 float: left;
 background-color: white;
 width: 320px;
-height: 340px;
+height: 350px;
 }
 #box4 {
 float: left;
 background-color: white;
 width: 320px;
-height: 340px;
+height: 350px;
 }
 #box5 {
 float: left;
 background-color: white;
 width: 320px;
-height: 340px;
+height: 350px;
 }
 #box6 {
 float: left;
 background-color: white;
 width: 320px;
-height: 340px;
+height: 350px;
 }
 
 #box7 {
@@ -154,7 +156,7 @@ height: 340px;
 footer {
 	text-align: center;
 	font-family: arial;
-	font-size: 10px;
+	font-size: 12px;
 	background-color: #988F86;
 	padding: 1em 0;
 	clear: both;
