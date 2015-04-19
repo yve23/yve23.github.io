@@ -1,0 +1,164 @@
+
+
+html {
+/*	background: url("../images/Guilin1.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; */
+}
+
+header {
+	background: #222;
+	color: #fff;
+	overflow: auto;
+}
+
+h1 {
+	font-family: 'Arial', sans-serif;
+	text-align:center;
+	font-size: 40px;
+	font-weight: 800;
+	display: inline-block;
+	color: #EBB700;
+	padding: 10px;
+}
+
+h2 {
+	font-family: 'Arial', sans-serif;
+	text-align:left;
+	font-size: 20px;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+h3 {
+	font-family: 'Arial', sans-serif;
+	text-align:left;
+	font-size: 20px;
+	padding-left: 15px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+}
+
+p {
+	font-family: 'Arial', sans-serif;
+	text-align:left;
+	font-size: 15px;
+	padding: 0 15px 0 15px;
+}
+
+ul {
+	font-family: 'Arial', sans-serif;
+	text-align: center; 
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	font-family: 'Arial', sans-serif;
+	text-align:center;
+}
+
+img {
+    display: inline-block; 
+    color: #FF8B24;
+   
+}
+
+a {
+	text-decoration: none;
+	color: orange;
+	display: block;
+}
+
+a:visited {
+	color: orange;
+}
+a:hover {
+	color: #173068;
+	text-decoration: none;
+}
+div {
+	font-size: 1.2em;
+	width: 50%;
+	
+}
+
+body {
+	
+}
+
+nav {
+	font-size: 1.8em;
+	float: right;
+}
+
+nav a {
+	font-family: 'Arial', sans-serif;
+	text-decoration: none;
+	color: #000000;
+	margin: 1.8em;
+	display: inline-block;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#box1 {
+float: left;
+background-color: white;
+width: 320px;
+height: 350px;
+}
+#box2 {
+float: left;
+background-color: white;
+width: 320px;
+height: 350px;
+}
+#box3 {
+float: left;
+background-color: white;
+width: 320px;
+height: 350px;
+}
+#box4 {
+float: left;
+background-color: white;
+width: 320px;
+height: 350px;
+}
+#box5 {
+float: left;
+background-color: white;
+width: 320px;
+height: 350px;
+}
+#box6 {
+float: left;
+background-color: white;
+width: 320px;
+height: 350px;
+}
+
+#box7 {
+	background-color: #C3C8C8;
+	width: 960px;
+	height: 240px;
+}
+
+footer {
+	text-align: center;
+	font-family: arial;
+	font-size: 12px;
+	background-color: #988F86;
+	padding: 1em 0;
+	clear: both;
+}
+
