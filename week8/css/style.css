@@ -180,8 +180,9 @@ footer {
 	font-family: arial;
 	font-size: .8em;
 	background-color: #21D5ED;
-	padding: 1em 0;
+	padding: 1em;
 	clear: both;
+	width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
