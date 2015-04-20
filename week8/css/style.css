@@ -14,14 +14,20 @@ header {
 	overflow: auto;
 }
 
+nav {
+	font-size: 10px;
+	font-color: 21D5ED;
+	display: center;
+}
+
 h1 {
 	font-family: 'Arial', sans-serif;
 	text-align:center;
 	font-size: 40px;
 	font-weight: 800;
 	display: inline-block;
-	color: #EBB700;
-	padding: 10px;
+	color: #21D5ED;
+	padding: 2%;
 }
 
 h2 {
@@ -31,17 +37,22 @@ h2 {
 	padding-left: 15px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	
+	color: #21D5ED;
+	font-weight: bold;
 }
 
 h3 {
 	font-family: 'Arial', sans-serif;
 	text-align:left;
-	font-size: 20px;
+	font-size: 23px;
 	padding-left: 15px;
 	padding-top: 20px;
 	padding-bottom: 10px;
 	margin: 0 auto;
+}
+
+section {
+	backgroud-color: #d1d1d1;
 }
 
 p {
@@ -49,6 +60,7 @@ p {
 	text-align:left;
 	font-size: 15px;
 	padding: 0 15px 0 15px;
+
 }
 
 ul {
@@ -82,6 +94,7 @@ a:hover {
 	color: #173068;
 	text-decoration: none;
 }
+
 div {
 	font-size: 1.2em;
 	width: 50%;
@@ -93,8 +106,8 @@ body {
 }
 
 nav {
-	font-size: 1.8em;
-	float: right;
+	font-size: 1.5em;
+	float: center;
 }
 
 nav a {
@@ -106,8 +119,9 @@ nav a {
 }
 
 #wrapper {
-	width: 960px;
+	width: 100%;
 	margin: 0 auto;
+	display: center;
 }
 
 #box1 {
@@ -115,49 +129,57 @@ float: left;
 background-color: white;
 width: 320px;
 height: 350px;
+padding-bottom: 3%
 }
 #box2 {
 float: left;
 background-color: white;
 width: 320px;
 height: 350px;
+padding-bottom: 3%
 }
+
 #box3 {
 float: left;
 background-color: white;
 width: 320px;
 height: 350px;
+padding-bottom: 3%
 }
 #box4 {
 float: left;
 background-color: white;
 width: 320px;
 height: 350px;
+padding-bottom: 3%
 }
 #box5 {
 float: left;
 background-color: white;
 width: 320px;
 height: 350px;
+padding-bottom: 3%
 }
 #box6 {
 float: left;
 background-color: white;
 width: 320px;
 height: 350px;
+padding-bottom: 3%
 }
 
 #box7 {
-	background-color: #C3C8C8;
-	width: 960px;
-	height: 240px;
+	background-color: #d1d1d1;
+	width: 100%;
+	overflow: auto;
+
 }
 
 footer {
 	text-align: center;
 	font-family: arial;
-	font-size: 12px;
-	background-color: #988F86;
+	font-size: .8em;
+	background-color: #21D5ED;
 	padding: 1em 0;
 	clear: both;
 }
