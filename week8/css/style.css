@@ -184,3 +184,42 @@ footer {
 	clear: both;
 }
 
+@media only screen and (max-width: 768px) {
+  nav {
+    float: none;
+  }	
+
+  nav a {
+      margin: 0 1.6em .75em 0;
+  }
+
+  }
+  
+  section, div {
+    width: 100%;
+    padding: .6em;
+  }
+  #about {
+    font-size: 1.4em;
+    line-height: 1.8em;
+  }
+  #services {
+    float: none; 
+    font-size: 1.4em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1, nav {
+    display: block;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 1em 1em;
+  }
+  
+ img {
+   width: 230px;
+ }
+}
