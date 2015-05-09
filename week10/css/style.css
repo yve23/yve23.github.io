@@ -17,11 +17,9 @@ nav {
 	color: orange;
 	float: right;
 }
+.desktop { display: none; }
 
-nav a {
-	margin: 2em 1.2em;
-	display: inline-block;
-}
+nav a { margin: 0 1.6em .75em 0; display: inline-block; }
 
 .story {
 	width: 100%;
@@ -152,22 +150,12 @@ footer {
 	padding: 1em;
 }
 
-	@media only screen and (max-width: 768px) {
-	  nav {
-	    float: none;
-	  }	
-
-	  nav a {
-	      margin: 0 1.6em .75em 0;
-	  }
-
+@media only screen and (min-width: 768px) {
+	header { min-height: 500px;}
+	nav a { margin: 2em 1.2em; }
+	.desktop { display: inline-block; }
+	.story {
+		width: 29%;
 	}
-}
-
-@media only screen and (max-width: 480px) {
-  h1, nav {
-    float: none;
-    text-align: center;
-  }
- 
+	.mobile { display: none; }
 }
