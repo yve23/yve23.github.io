@@ -15,11 +15,11 @@ header {
 	min-height: 300px;
 }
 header#location {
-	background: url(../images/DSC00900mobile.jpg);
+	background: url(../images/napa_valley.jpg);
 	background-size: cover;
 }
 header#gifts {
-	background: url(../images/DSC00900mobile.jpg);
+	background: url(../images/rainbow.jpg);
 	background-size: cover;
 }
 
@@ -44,8 +44,8 @@ section h2 { text-align: center; padding: 150px 0px; }
 }
 
 /* hero images */
-.arrival { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(../images/DSC00900mobile.jpg); background-size: cover; }
-.wedding-day { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(../images/DSC00900mobile.jpg); background-size: cover; }
+.arrival { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(../images/lavender.jpg); background-size: cover; }
+.wedding-day { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(../images/lavender.jpg); background-size: cover; }
 .venue { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(../images/addendum.jpg); background-size: cover;}
 .hotels { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(../images/LakeMerritt2.jpg); background-size: cover; }
 
