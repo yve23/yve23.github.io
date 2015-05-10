@@ -14,6 +14,14 @@ header {
 	background-size: cover;
 	min-height: 300px;
 }
+header#location {
+	background: url(../images/DSC00900mobile.jpg);
+	background-size: cover;
+}
+header#gifts {
+	background: url(../images/DSC00900mobile.jpg);
+	background-size: cover;
+}
 
 .darken { background-color: black; opacity: 0.4; height: 100%; }
 
@@ -35,11 +43,15 @@ section h2 { text-align: center; padding: 150px 0px; }
 	display: inline-block;
 }
 
-.arrival-title { background-image: url(../images/DSC00900.jpg); }
+/* hero images */
+.arrival { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(../images/DSC00900mobile.jpg); background-size: cover; }
+.wedding-day { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(../images/DSC00900mobile.jpg); background-size: cover; }
+.venue { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(../images/addendum.jpg); background-size: cover;}
+.hotels { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(../images/LakeMerritt2.jpg); background-size: cover; }
+
 .section-text { text-align: center; margin: 36px auto 60px; }
 .section-text p {line-height: 1.5;}
 .section-text span { color: #f9b862; display: block; }
-.wedding-day { background-image: url(../images/DSC00900.jpg); }
 
 h1, h2 { color: #f9b862; }
 h1 {
