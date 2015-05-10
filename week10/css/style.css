@@ -5,6 +5,7 @@ a:hover { color: #ffffff; }
 
 #intro {
 	text-align: center;
+
 }
 
 header {
@@ -82,7 +83,7 @@ footer {
 	padding: 1em;
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
 	header { min-height: 500px;}
 	nav a { margin: 2em 1.2em; }
 	.desktop { display: inline-block; }
