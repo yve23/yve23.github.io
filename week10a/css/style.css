@@ -1,0 +1,108 @@
+html { display: block; }
+body { font-size: 1.2em; font-family: 'Arial', sans-serif; }
+a { text-decoration: none; color: orange; }
+a:hover { color: #ffffff; }
+
+#intro {
+	text-align: center;
+	padding: 20px;
+
+}
+
+header {
+	background: url(../images/DSC00900mobile.jpg);
+	background-size: cover;
+	min-height: 300px;
+}
+header#location {
+	background: url(../images/napa_valley.jpg);
+	background-size: cover;
+}
+header#gifts {
+	background: url(../images/rainbow.jpg);
+	background-size: cover;
+}
+
+.darken { background-color: black; opacity: 0.4; height: 100%; }
+
+nav {
+	font-size: 14px;
+	font-family: 'Arial', sans-serif;
+	color: orange;
+	float: right;
+}
+.desktop { display: none; }
+
+nav a { margin: 0 1.6em .75em 0; display: inline-block; }
+section { background-size: cover; }
+section h2 { text-align: center; padding: 150px 0px; }
+
+.story {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+/* hero images */
+.arrival { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(../images/lavender.jpg); background-size: cover; }
+.wedding-day { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(../images/lavender.jpg); background-size: cover; }
+.venue { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(../images/addendum.jpg); background-size: cover;}
+.hotels { background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url(../images/LakeMerritt2.jpg); background-size: cover; }
+
+.section-text { text-align: center; margin: 36px auto 60px; }
+.section-text p {line-height: 1.5;}
+.section-text span { color: #f9b862; display: block; }
+
+h1, h2 { color: #f9b862; }
+h1 {
+	text-align:center;
+	font-size: 1.7em;
+	display: inline-block;
+	padding: 2%;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	line-height: 1.2em;
+	font-weight: 400;
+	font-style: normal;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 24px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+p {
+	font-size: 15px;
+	margin: 10px 20px 20px;
+}
+
+img {
+    display: inline-block; 
+    color: #FF8B24;
+    -webkit-font-smoothing: antialiased;
+}
+
+footer {
+	text-align: center;
+	font-family: arial;
+	font-size: .8em;
+	background-color: #f9b862;
+	padding: 1em;
+}
+
+@media screen and (min-width: 768px) {
+	header { min-height: 500px;}
+	nav a { margin: 2em 1.2em; }
+	.desktop { display: inline-block; }
+	.story {
+		width: 29%;
+		padding: 15px;
+	}
+	.mobile { display: none; }
+}
